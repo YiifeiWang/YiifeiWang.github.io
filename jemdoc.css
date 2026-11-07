@@ -398,3 +398,62 @@ table.imgtable, table.imgtable td {
 		height: auto;
 	}
 }
+
+/* Publication entries: authors — title — venue — badges. */
+div.pub {
+	margin-bottom: 0.7em;
+	line-height: 1.45;
+}
+
+span.pub-title {
+	font-weight: bold;
+}
+
+div.pub em {
+	font-style: italic;
+}
+
+div.pub span.sep {
+	color: #999999;
+	margin: 0 0.15em;
+}
+
+a.badge {
+	display: inline-block;
+	padding: 0.1em 0.55em;
+	border-radius: 4px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 85%;
+	line-height: 1.5;
+	color: white;
+	vertical-align: 0.1em;
+}
+
+a.badge:hover {
+	border-bottom: none;
+	opacity: 0.85;
+}
+
+a.badge.pdf {
+	background: #6b8ee6;
+}
+
+a.badge.arxiv {
+	background: #c75c6b;
+}
+
+a.badge.code {
+	background: #f0b46a;
+}
+
+a.badge.doi {
+	background: #7b4fa6;
+}
+
+a.badge.talk {
+	background: #5aa98c;
+}
+
+a.badge.website {
+	background: #8c8c8c;
+}
